@@ -1,7 +1,7 @@
 import axios from "axios";
 
 export default function util(){
-  const accessToken="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"
+  const accessToken="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"
   const axiosInstance = axios.create({
     baseURL: 'https://api.github.com/',
     timeout: 2000,
