@@ -1,0 +1,23 @@
+
+@import './base.css';
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+textarea:focus, input:focus{
+  outline: none;
+}
+
+#app {
+  height: 100vh;
+}
+a{
+  cursor: pointer;
+}
+canvas{
+  width: 926px;
+  height: 944px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  transform: scale(.8);
+}

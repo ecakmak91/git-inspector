@@ -1,0 +1,18 @@
+/* color palette from <https://github.com/vuejs/theme> */
+:root {
+  --cool-primary:#EE205F;  
+  --cool-black:#3B2C3C;
+  --cool-dark-blue:#0E1D46;
+  --cool-pink:#F70945;
+  --cool-white:#FEECC2;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  position: relative;
+  font-weight: normal;
+  color:var(--cool-black)
+}
