@@ -67,38 +67,6 @@ export default function util(){
   }
 
 
-  const getDevelopersGraphQl=(query)=>{
-    const options = {
-      method: "POST",
-      headers: {
-        "Authorization": "Bearer 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",
-        "Content-Type": "application/json",
-      },
-      body: JSON.stringify({
-        query: `query {
-          search(query: "${query}, type:USER", first: 10) {
-            edges {
-              node {
-                ... on User {
-                  login
-                }
-              }
-            }
-          }
-        }`
-      }),
-    };
-  
-    return fetch("https://api.github.com/graphql", options)
-      .then((res) => res.json())
-      .then((data) => {
-        console.log(data)
-        return data.data.search.edges.map((edge) => edge.node.login);
-      })
-      .catch((error) => {
-        console.error(error);
-      });
-  }
 
   return {
     getDevelopers,
