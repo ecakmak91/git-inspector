@@ -1,14 +1,14 @@
 # git-inspector
 
-This template should help get you started developing with Vue 3 in Vite.
+This application was developed by @ecakmak91. This application helps to you for searching github user.
 
-## Recommended IDE Setup
+## Used Plugins
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+- Vue Router -> For paging
+- html2canvas -> For screen capture
+- tailwindcss -> CSS framework
+- Sass -> Sass is a stylesheet language that’s compiled to CSS.
 
-## Customize configuration
-
-See [Vite Configuration Reference](https://vitejs.dev/config/).
 
 ## Git Auth Key
 
