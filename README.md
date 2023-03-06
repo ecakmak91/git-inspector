@@ -10,6 +10,14 @@ This template should help get you started developing with Vue 3 in Vite.
 
 See [Vite Configuration Reference](https://vitejs.dev/config/).
 
+## Git Auth Key
+
+```sh
+Change github key in @/composables/util.js
+You can get key from
+See [Fine-grained personal access tokens](https://github.com/settings/tokens?type=beta)
+```
+
 ## Project Setup
 
 ```sh
